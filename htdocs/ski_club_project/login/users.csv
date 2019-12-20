@@ -1,0 +1,5 @@
+This file shows the set of fake users that were registered in the database table using test_script_user_reg.php
+Username, Password
+fakeuser1, password1
+red@80, 56;tsrun
+consult test_script_user_reg.php to create more users

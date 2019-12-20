@@ -1,0 +1,102 @@
+.required
+{
+    color: red;
+}
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=number], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: LightGrey;
+    padding: 20px;
+    margin: 20px;
+}
+input {
+    width: 100%;
+}
+select{
+    width: 100%;
+}
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+h1 
+{
+    color: Black;
+}
+h2 
+{
+    color: Black;
+}
+body{
+    background-color : LightSteelBlue;
+}
+
+table {
+    
+	font-size: 15px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #666666;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th {
+	border-width: 2px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+    background-color: #4CAF50;
+    color: white;
+}
+td {
+	border-width: 2px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+html {
+    scroll-behavior: smooth;
+}
+
