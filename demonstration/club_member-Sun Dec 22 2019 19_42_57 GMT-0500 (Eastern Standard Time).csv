@@ -1,0 +1,8 @@
+Member ID,Club,First Name,Last Name,Requires a Bus Pass,Is a Student?
+1,[1] - MVNU,Jim,Smith,No,No
+2,[1] - MVNU,Carol,West,No,Yes
+3,[2] - Whitefish High School,Nick,Goepper,Yes,No
+4,[3] - Mount Vernon Ski Club,Terra,West,Yes,Yes
+6,[1] - MVNU,Landon,Shenberger,Yes,Yes
+7,[1] - MVNU,Alex,Pager,No,Yes
+8,[5] - Princeton University,Tom,Lee,No,No
