@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>eaa844cd-fe48-416c-aed0-492ef428d5e9.SCHEMA:Ski_Club.public</OriginalElement>
+  <nodes>
+    <node x="399.0" y="455.0">eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.medical_insurance</node>
+    <node x="637.0" y="466.0">eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.bus_pass</node>
+    <node x="425.5" y="189.0">eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.club_member</node>
+    <node x="610.5" y="200.0">eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.advisor</node>
+    <node x="804.0" y="422.0">eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.member_order</node>
+    <node x="0.0" y="694.0">eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.users</node>
+    <node x="498.75" y="0.0">eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.ski_club</node>
+    <node x="177.0" y="466.0">eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.pass</node>
+    <node x="0.0" y="477.0">eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.form</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.form" target="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.club_member">
+      <point x="0.0" y="-58.5" />
+      <point x="78.5" y="392.0" />
+      <point x="442.0" y="392.0" />
+      <point x="-66.0" y="91.5" />
+    </edge>
+    <edge source="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.pass" target="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.club_member">
+      <point x="0.0" y="-69.5" />
+      <point x="278.0" y="402.0" />
+      <point x="475.0" y="402.0" />
+      <point x="-33.0" y="91.5" />
+    </edge>
+    <edge source="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.medical_insurance" target="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.club_member">
+      <point x="0.0" y="-80.5" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.member_order" target="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.club_member">
+      <point x="0.0" y="-113.5" />
+      <point x="905.0" y="392.0" />
+      <point x="574.0" y="392.0" />
+      <point x="66.0" y="91.5" />
+    </edge>
+    <edge source="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.bus_pass" target="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.club_member">
+      <point x="0.0" y="-69.5" />
+      <point x="710.5" y="402.0" />
+      <point x="541.0" y="402.0" />
+      <point x="33.0" y="91.5" />
+    </edge>
+    <edge source="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.club_member" target="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.ski_club">
+      <point x="0.0" y="-91.5" />
+      <point x="508.0" y="164.0" />
+      <point x="548.0" y="164.0" />
+      <point x="-49.25" y="69.5" />
+    </edge>
+    <edge source="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.advisor" target="eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.ski_club">
+      <point x="0.0" y="-80.5" />
+      <point x="686.5" y="164.0" />
+      <point x="646.5" y="164.0" />
+      <point x="49.25" y="69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7524366471734891" x="503.0" y="405.5000000000002" />
+  <SelectedNodes>
+    <node>eaa844cd-fe48-416c-aed0-492ef428d5e9.TABLE:Ski_Club.public.form</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
