@@ -1,0 +1,151 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20191231154240
+Username: DESKTOP-HI5JGPV\lshen
+RunAs User: DESKTOP-HI5JGPV\lshen
+Configuration Name: 
+Machine: DESKTOP-HI5JGPV (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7252
+PSVersion: 5.1.18362.145
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.145
+BuildVersion: 10.0.18362.145
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\restoring_database_poweshell.txt
+PS C:\Users\lshen> chcp 1252
+Active code page: 1252
+PS C:\Users\lshen> psql -U postgres
+Password for user postgres:
+psql (12.0)
+Type "help" for help.
+
+postgres=# create database club_db_restore;
+CREATE DATABASE
+postgres=# \q
+PS C:\Users\lshen> psql -U postgres -d club_db_restore -f D:\club_database_backup.sql
+Password for user postgres:
+SET
+SET
+SET
+SET
+SET
+ set_config
+------------
+
+(1 row)
+
+
+SET
+SET
+SET
+SET
+CREATE FUNCTION
+ALTER FUNCTION
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+COMMENT
+COMMENT
+CREATE TABLE
+ALTER TABLE
+COMMENT
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+COMMENT
+CREATE TABLE
+ALTER TABLE
+COMMENT
+COMMENT
+CREATE TABLE
+ALTER TABLE
+COMMENT
+CREATE TABLE
+ALTER TABLE
+COMMENT
+COMMENT
+COMMENT
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+COMMENT
+CREATE TABLE
+ALTER TABLE
+COMMENT
+COMMENT
+CREATE TABLE
+ALTER TABLE
+COMMENT
+COMMENT
+COMMENT
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+COPY 3
+COPY 2
+COPY 7
+COPY 3
+COPY 5
+COPY 3
+COPY 2
+COPY 6
+COPY 2
+ setval
+--------
+      7
+(1 row)
+
+
+ setval
+--------
+     12
+(1 row)
+
+
+ setval
+--------
+     21
+(1 row)
+
+
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+ALTER TABLE
+COMMENT
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+PS C:\Users\lshen> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20191231154809
+**********************
