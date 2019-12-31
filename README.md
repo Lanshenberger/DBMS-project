@@ -16,5 +16,18 @@ https://github.com/Lanshenberger/DBMS-project/blob/master/demonstration/club_dat
 			1. Create the database by right-clicking on "databases"->Create->Database...
 			2. Right-click on the newly created database and select Restore...
 		* Using command line interface:
-			1. Establish a command line connection by execting this command: 
+			1. Establish a command line connection by execting this command (remember to set a password for user postgres): 
+			```
+			psql -U postgres
+			```
+			2. Create a new database after establishing the connection then quit:
+			```
+			create database <dbname>;
+			\q
+			```
+			3. Run the backup script (use psql not pg_restore because the script is in plain format):
+			```
+			psql -U <username> -d <dbname> -1 -f <filename>.sql
+			```
+			4. An example of this
 			
